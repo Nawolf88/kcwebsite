@@ -1,0 +1,54 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+5D769D,7D404D,667F00,EB9986,987E8C
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #457B9D;
+    background: linear-gradient(#5D769D, #7D404D);
+    text-shadow: 2px 1px #5D769D;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.hero {
+    margin: 0;
+    background-image: url("images/kansas_city_skyline.jpeg");
+    background-size: cover; 
+    height: 500px;
+}
+
+#title{
+    padding-top: 120px;
+    margin: 0px;
+    font-size: 50px;
+}
+
+.guide {
+    margin: 30px;
+}
+
+.activity_pic {
+    height: 100 px;
+    width: 100 px;
+}
+
+#profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
